@@ -1,0 +1,681 @@
+
+
+/*user style
+*/
+#admin-contents{
+    padding: 20px 0;
+    min-height: 750px;
+}
+
+#admin-contents .admin-heading{
+    font-size: 35px;
+    margin: 0 0 15px;
+}
+
+#admin-contents .add-new{
+    color: #fff;
+    background-color: #1E90FF;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    /* margin: 0 0 20px; */
+    display: block;
+    transition: all 0.3s;
+}
+#admin-contents .add-new:hover{
+    text-shadow: 0 0 3px #000;
+    box-shadow: 3px 3px 0 rgba(0,0,0,0.2);
+}
+
+#admin-contents .content-table{
+    border: 1px solid #000;
+    width: 100%;
+    margin: 0 0 20px;
+}
+
+#admin-contents .content-table thead{
+    color: #fff;
+    background-color: #333;
+}
+
+#admin-contents .content-table th{
+    padding: 10px;
+    border: 1px solid #fff;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#admin-contents .content-table tbody{
+    color: #333;
+}
+
+#admin-contents .content-table tbody tr{
+    background-color: #e7e7e7;
+}
+#admin-contents .content-table tbody tr:nth-child(even){
+    background-color: transparent;
+}
+#admin-contents .content-table tbody td{
+    padding: 10px;
+    border: 1px solid #fff;
+    text-align: center;
+
+}
+
+#admin-contents .content-table tbody td:nth-child(2){
+    text-align: left;
+}
+
+#admin-contents .admin-pagination{
+    margin: 0;
+
+}
+#admin-contents .admin-pagination li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+
+
+}
+#admin-contents .admin-pagination li a{
+  text-decoration: none;background: #38ada9;
+  margin-top: 2px;
+  padding: 2px 5px;
+
+}
+#admin-contents .admin-pagination li a:hover{
+  background: #079992;
+padding: 2px 5px;
+}
+#admin-contents .admin-pagination .active{
+  background:  #16a085;
+}
+
+
+
+/* user style end*/
+
+
+/*registration style start*/
+  #admin-content{
+
+    position: relative;
+    display: flex;
+
+  }
+.heading{
+  text-align: center;
+    color: #2c3d5c;
+}
+#admin-content form{
+  background:#e84393;
+  width: 70%;
+  height: 400px;
+  padding: 20px;
+  margin: 30px 130px;
+  color: #fff;
+  border-radius: 10px;
+position: relative;
+box-shadow: 0 0 50px 20px rgba(0,0,0,0.26);
+
+
+}
+
+#admin-content form .form-group{
+  display: flex;
+  padding: 5px 0px;
+  margin-top: 30px;
+
+}
+#admin-content form .form-group label{
+  flex: 1;
+}
+#admin-content form .form-group input{
+  flex: 3;
+}
+#admin-content form input[type='submit']{
+  float: right;
+  padding: 5px 6px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+#admin-content form input[type='submit']:hover{
+  background: #32cd32;
+}
+#admin-content form .login_text{
+position: absolute;
+  color: beige;
+  font-size: 15px;
+  margin-left: 0px;
+  padding: 20px 25px;
+cursor:;
+}
+#admin-content form .login{
+  color: blue;
+}
+#admin-content form .login:hover{
+  color:#0c2461;
+}
+
+
+
+
+
+
+#wrapper-admin form{
+  background: #e84393;
+  width:70%;
+  height: 250px;
+
+  position: absolute;
+  top: 600px;
+  box-shadow: 0 0 40px 20px rgba(0,0,0,0.26);
+}
+#wrapper-admin img{
+position: absolute;
+margin: 20px 70px;
+}
+#wrapper-admin .heading{
+  position: relative;
+  top: 10px;
+  font-size: 30px;
+}
+#wrapper-admin form{
+  position: absolute;
+  top: 150px;
+  box-shadow: 0 0 40px 20px rgba(0,0,0,0.9);
+}
+#wrapper-admin form .form-group{
+ display: flex;
+ padding: 5px 0px;
+ margin-top: 30px;
+
+
+}
+#wrapper-admin form .form-group label{
+  flex: 1;
+  padding-left: 20px;
+
+}
+#wrapper-admin form .form-group input{
+  margin-right: 5px;
+  flex: 7;
+}
+#wrapper-admin .btn{
+  float: right;
+  color: #2e3c5d;
+  margin: 10px 20px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+#wrapper-admin .btn:hover{
+  background: #2e3c5d;
+  color: #fff;
+}
+#wrapper-admin .login_text{
+  font-size: 13px;
+  position: absolute;
+  margin: 20px 7px;
+}
+#wrapper-admin .login:hover{
+color: #1e3799;
+}
+@media (max-width:1515px) {
+  #wrapper-admin img{
+  position: absolute;
+  margin: 20px 400px;
+  }
+  #wrapper-admin .heading{
+    position: relative;
+    top: 10px;
+    color: black;
+    font-size: 30px;
+  }
+  #wrapper-admin form{
+    position: relative;
+    top: 150px;
+    margin-left: 190px;
+    border-radius: 10px;
+  box-shadow: 0 0 40px 20px rgba(0,0,0,0.9);
+  }
+  #wrapper-admin form .form-group{
+   display: flex;
+   padding: 5px 0px;
+   margin-top: 30px;
+
+  }
+  #wrapper-admin form .form-group label{
+    flex: 1;
+  }
+  #wrapper-admin form .form-group input{
+    flex: 6;
+  }
+  #wrapper-admin .login_text{
+    font-size: 20px;
+    position: absolute;
+    margin: 20px 15px;
+  }
+
+
+
+
+  #admin-content .heading{
+position: relative;
+
+text-align: center;
+margin-top: 30px;
+margin-left: 400px;
+  }
+  #admin-content form{
+  background:#e84393;
+position: relative;
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    margin: 30px 240px;
+    color: #fff;
+    border-radius: 10px;
+
+box-shadow: 0 0 40px 20px rgba(0,0,0,0.9);
+}
+  #admin-content form .form-group input{
+    flex: 4;
+  }
+  #admin-content form .login_text{
+    font-size: 22px;
+  }
+
+}
+@media (max-width:1092px) {
+  #wrapper-admin img{
+  position: absolute;
+  margin: 20px 300px;
+  }
+  #wrapper-admin .heading{
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+  }
+  #wrapper-admin form{
+    position: relative;
+    top: 150px;
+    margin-left: 160px;
+    border-radius: 10px;
+  box-shadow: 0 0 40px 20px rgba(0,0,0,0.9);
+  }
+  #wrapper-admin form .form-group{
+   display: flex;
+   padding: 5px 0px;
+   margin-top: 30px;
+
+  }
+  #wrapper-admin  form .form-group label{
+    flex: 1;
+  }
+  #wrapper-admin  form .form-group input{
+    flex: 5;
+  }
+  #wrapper-admin .login_text{
+    font-size: 18px;
+    position: absolute;
+    margin: 20px 13px;
+  }
+
+
+
+
+
+
+  #admin-content form{
+  background: #e84393;
+
+    width: 90%;
+    height: 400px;
+    padding: 20px;
+    margin: 30px 180px;
+    color: #fff;
+    border-radius: 10px;
+  position: relative;
+box-shadow: 0 0 40px 20px rgba(0,0,0,0.9);
+}
+  #admin-content form .form-group input{
+    flex: 3;
+  }
+
+}
+@media (max-width:980px) {
+  #wrapper-admin img{
+  position: absolute;
+  margin: 20px 200px;
+  }
+  #wrapper-admin .heading{
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+  }
+  #wrapper-admin form{
+    position: relative;
+    top: 150px;
+    margin-left: 130px;
+    border-radius: 10px;
+  box-shadow: 0 0 40px 20px rgba(0,0,0,0.9);
+
+  }
+  #wrapper-admin form .form-group{
+   display: flex;
+   padding: 5px 0px;
+   margin-top: 30px;
+
+  }
+#wrapper-admin form .form-group label{
+    flex: 1;
+  }
+  #wrapper-admin form .form-group input{
+    flex: 5;
+  }
+  #wrapper-admin .login_text{
+    font-size: 15px;
+    position: absolute;
+    margin: 20px 10px;
+  }
+
+
+
+
+
+
+#admin-content .heading{
+  position: relative;
+  margin-left: 300px;
+}
+  #admin-content form{
+  background: #e84393;
+position: absolute;
+    width: 80%;
+    height: 400px;
+    padding: 20px;
+    margin: 30px 65px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 20px rgba(0,0,0,0.9);
+  }
+  #admin-content form .form-group input{
+    flex: 4;
+  }
+
+}
+@media (max-width:800px){
+  #wrapper-admin img{
+  position: absolute;
+  margin: 20px 110px;
+  }
+  #wrapper-admin form{
+    position: relative;
+    top: 150px;
+    margin-left: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 20px rgba(0,0,0,0.9);
+  }
+  #wrapper-admin form .form-group{
+   display: flex;
+   padding: 5px 0px;
+   margin-top: 30px;
+
+  }
+#wrapper-admin form .form-group label{
+    flex: 1;
+  }
+  #wrapper-admin form .form-group input{
+    flex: 4;
+  }
+
+
+
+
+  #admin-content .heading{
+    position: relative;
+    margin-left: 270px;
+  }
+  #admin-content form{
+  background: #e84393;
+position: absolute;
+    width: 90%;
+    height: 400px;
+    padding: 20px;
+    margin: 30px 18px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 20px rgba(0,0,0,0.9);
+  }
+
+}
+@media (max-width:700px) {
+  #wrapper-admin img{
+  position: absolute;
+  margin: 20px 110px;
+  }
+  #wrapper-admin .heading{
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+  }
+  #wrapper-admin form{
+    position: relative;
+    top: 150px;
+    width: 80%;
+    margin-left: 90px;
+    border-radius: 10px;
+  box-shadow: 0 0 40px 20px rgba(0,0,0,0.9);
+  }
+  #wrapper-admin form .form-group{
+   display: flex;
+   padding: 5px 0px;
+   margin-top: 30px;
+
+  }
+#wrapper-admin form .form-group label{
+    flex: 1;
+  }
+  #wrapper-admin form .form-group input{
+    flex: 4;
+  }
+
+
+
+
+  #admin-content .heading{
+    position: relative;
+    margin-left: 170px;
+  }
+  #admin-content form{
+  background: #e84393;
+position: absolute;
+    width: 90%;
+    height: 400px;
+    padding: 20px;
+    margin: 30px 10px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 20px rgba(0,0,0,0.9);
+  }
+
+  #admin-content form .form-group input{
+    flex: 2;
+  }
+
+}
+@media (max-width:660px){
+  #wrapper-admin img{
+  position: absolute;
+  margin: 20px 110px;
+  }
+  #wrapper-admin form{
+    position: relative;
+    top: 150px;
+    margin-left: 70px;
+    border-radius: 10px;
+    box-shadow: 10px;
+  }
+  #wrapper-admin form .form-group{
+   display: flex;
+   padding: 5px 0px;
+   margin-top: 30px;
+
+  }
+#wrapper-admin form .form-group label{
+    flex: 1;
+  }
+  #wrapper-admin form .form-group input{
+    flex: 3;
+  }
+  #wrapper-admin .login_text{
+    font-size: 13px;
+    position: absolute;
+    margin: 20px 7px;
+  }
+
+}
+@media (max-width:500px) {
+
+  #wrapper-admin img{
+  position: absolute;
+  margin: 20px 90px;
+  }
+  #wrapper-admin .heading{
+    position: relative;
+    color: black;
+    top: 10px;
+    font-size: 30px;
+  }
+  #wrapper-admin form{
+
+    position: relative;
+    top: 150px;
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 20px rgba(0,0,0,0.9);
+  }
+  #wrapper-admin form .form-group{
+   display: flex;
+   padding: 5px 0px;
+   margin-top: 30px;
+
+  }
+  #wrapper-admin form .form-group label{
+    flex: 1;
+  }
+  #wrapper-admin form .form-group input{
+    flex: 2;
+  }
+  #wrapper-admin .login_text{
+    font-size: 11px;
+    position: absolute;
+    margin: 20px 7px;
+  }
+
+
+
+
+
+
+
+#admin-content .heading{
+  text-align: center;
+  position: relative;
+  margin-left: 60px;
+}
+  #admin-content form{
+    background: #e84393;
+  position: relative;
+      width: 80%;
+    height: 400px;
+    padding: 20px;
+    margin: 30px 55px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 20px rgba(0,0,0,0.9);
+  }
+  #admin-content form .form-group input{
+
+    flex: 2;
+  }
+
+}
+/*registration  and login style end*/
+body{
+  background: #d1d8e0;
+}
+#forgetpassword{
+
+  background: #e84393;
+  width: 80%;
+  height: 300px;
+  position: relative;
+  top: 100px;
+  margin-left: 60px;
+  border-radius: 15px;
+  box-shadow: 0 0 40px 20px rgba(0,0,0,0.9);
+
+
+
+
+}
+#forgetpassword .form-group {
+  display: flex;
+  margin: 30px 20px;
+  padding: 20px 20px;
+  flex-direction: column;
+
+
+}
+#forgetpassword .form-group label{
+  display: flex;
+  flex:1;
+
+}
+#forgetpassword .form-group input{
+  display: flex;
+  flex:3;
+
+}
+#forgetpassword .btn{
+  float: right;
+  position: relative;
+  margin-right: 40px;
+  padding: 5px 5px;
+  border-radius: 10px;
+  background: #0be881;
+}
+#forgetpassword .btn:hover{
+  background: #05c46b;
+}
+@media(max-width:1280px){
+  #forgetpassword{
+    margin-left: 140px;
+  }
+}
+@media(max-width:1092px){
+  #forgetpassword{
+    margin-left: 120px;
+  }
+}
+@media(max-width:998px){
+  #forgetpassword{
+    margin-left: 100px;
+  }
+}
+@media(max-width:700px){
+  #forgetpassword{
+    margin-left: 60px;
+  }
+}
+@media(max-width:500px){
+  #forgetpassword{
+    margin-left: 40px;
+
+  }
+}
